@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./globle.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="online-clipboard">
+      <main class="frame-root">
+        <header class="reach-to-root-logos-transpare-parent">
+          <img
+            class="reach-to-root-logos-transpare"
+            loading="eager"
+            alt=""
+            src="REACH TO ROOT -logos_transparent.png"
+          />
+
+          <div class="rectangle-logo">
+            <div class="rectangle-logo-child"></div>
+            <div class="online-clipboardby-recah-container">
+              <span>Online Clipboard</span>
+              <span class="by-recah-to">by recah to root </span>
+            </div>
+            <div class="login-sign-up-frames">
+              <div class="login-sign-up">
+                <div class="login">LOGIN</div>
+                <div class="sign-up">SIGN UP</div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <section class="frame-root-inner">
+          
+            
+            <div class="submit-frame">
+              <div class="frame-retrieve-data">
+                <div class="rectangle-submit">
+                  <div class="rectangle-submit-child"></div>
+                  <textarea  class="rectangle-submit-item"
+                    rows="{7}"
+                    cols="{22}"
+                    id="clipboardText" placeholder="Enter text..."
+                  >
+                  </textarea>
+                  <div class="retrieve-data-frame">
+                    <button onclick="pasteFromClipboard()" class="paste-button">&#x21EA;</button>
+                    <button onclick="submitData()">Submit</button>
+    <p id="submissionResponse"></p>
+                  </div>
+                </div>
+                <div class="rectangle-submit1">
+                  <div class="rectangle-submit-inner"></div>
+                  <div class="text-retrieve-data-wrapper">
+                    <div class="text-retrieve-data">
+                      <div class="rectangle-retrieve">
+                        <div class="retrieve-data"> <input type="text" id="retrieveKey" placeholder="Enter key...">
+                            </div>
+                      </div>
+                      <button onclick="retrieveData()">Retrieve</button>
+                            <p id="retrievalResponse"></p>
+                    </div>
+                  </div>
+                  <div class="copy-container">
+                    <textarea id="copiedText" readonly class="rectangle-textarea" rows="{7}" cols="{22}"></textarea>
+                    <button onclick="copyToClipboard()" class="copy-button">copy</button>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="copyright-frame">
+        <div class="product-design-frame">
+          <div class="product-design-frame-child"></div>
+          <div class="copyright-2024">Copyright © 2024 Reach to root ®</div>
+          <div class="product-design-by">Product Design by Reach to Root</div>
+        </div>
+        <script src="script.js"></script>
+        </footer>
+      </div>
+      </body> 
+</html>
