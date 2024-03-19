@@ -9,7 +9,7 @@ function submitData() {
   }
 
   // Send data to the server
-  fetch('http://localhost:3000/submit', {
+  fetch('https://online-clipboard-6vjy.onrender.com/submit', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -59,7 +59,7 @@ function retrieveData() {
   }
 
   // Retrieve data from the server using the key
-  fetch(`http://localhost:3000/retrieve/${key}`)
+  fetch(`https://online-clipboard-6vjy.onrender.com/retrieve/${key}`)
     .then(response => response.json())
     .then(data => {
       console.log('Retrieval response:', data);
